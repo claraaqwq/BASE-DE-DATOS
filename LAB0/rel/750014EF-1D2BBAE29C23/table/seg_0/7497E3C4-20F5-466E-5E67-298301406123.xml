@@ -1,0 +1,209 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7497E3C4-20F5-466E-5E67-298301406123" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_CUENTA_BANCARIA">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_CUENTA_BANCARIA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabla que registra las cuentas bancarias de los clientes del Banco Virtual PerúPago.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>EAEEAFC6-AB5A-67C9-39CE-0643C9EC4B30</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CUENTA" id="8775DC04-4222-8A12-83FA-10B5236E4236">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CUENTA_BANCARIA</sourceObjSchema>
+<sourceObjName>ID_CUENTA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la cuenta bancaria.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>6891C88D-D67A-BBF5-0AFC-785C65ECAE6A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_CUENTA" id="93AA33D9-9FDE-3F11-76C4-E23EE6E8FCBA">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CUENTA_BANCARIA</sourceObjSchema>
+<sourceObjName>NUMERO_CUENTA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número local de la cuenta bancaria.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>2A0EFB41-695E-F8F7-08FA-B97654424204</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>21 BYTE</dataTypeSize>
+<ownDataTypeParameters>21 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_INTERBANCARIO" id="928F0B65-440C-1F7C-03CA-6DCD7927939E">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CUENTA_BANCARIA</sourceObjSchema>
+<sourceObjName>CODIGO_INTERBANCARIO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código interbancario (CCI) de la cuenta bancaria, el cual se usa para transferencias con otros bancos.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>73710CBC-39AE-BFC8-C09E-D8AEA21DCC68</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENTE" id="EC425312-C74E-1BCF-4272-50BDC27352A9">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CUENTA_BANCARIA</sourceObjSchema>
+<sourceObjName>ID_CLIENTE</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del cliente al que pertenece la cuenta.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>09C63B80-2B1A-1850-B7EE-0754C9B35D0F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_CUENTA" id="3E243EDC-7CC9-7054-666B-74E3D506AE3F">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CUENTA_BANCARIA</sourceObjSchema>
+<sourceObjName>TIPO_CUENTA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo de cuenta asociado a esta cuenta: 'C' significa que es una cuenta corriente, mientras que 'A' está asociado a una cuenta de ahorros.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>A3AEE2EE-349F-006F-AA3B-BF4974B90111</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLASIFICACION" id="6A4E7B30-D61E-ACB3-92D4-1088110590D9">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CUENTA_BANCARIA</sourceObjSchema>
+<sourceObjName>ID_CLASIFICACION</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la clasificación de cuenta asociada a esta cuenta.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>1951C57A-2F9C-55B4-DAB0-464403BD34B2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51BC3A74-772E-1E4C-C6A5-3C57ADBB07B1" referredColumn="39661E33-C219-4FC7-2DEF-944266BEFC7D"/>
+</associations>
+</Column>
+<Column name="FECHA_REGISTRO" id="0CF072CF-64D6-A7D5-4DF0-52608A96156B">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CUENTA_BANCARIA</sourceObjSchema>
+<sourceObjName>FECHA_REGISTRO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha en la que se registró la cuenta bancaria.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>E4E05D71-1D31-06DC-9972-B5DAC3D6BB93</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="10CFF404-9A5B-BFD7-6175-29475531410E">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CUENTA_BANCARIA</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado de la cuenta bancaria. 'V' significa que la cuenta está vigente, 'B' que la cuenta se encuentra bloqueada y 'E' que la cuenta está eliminada.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>B25EB7C7-B987-05D4-D1FA-BFB5C216E684</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PP_CLIENTE_ID_CLIENTE" id="62677F7C-C3D6-E11A-FA7A-791DFA501DAF">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 03:00:23 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42C4B87C-12F8-40F8-75B1-1BEDAFB537DC" referredColumn="936DBD47-877D-5D78-2B33-9D4ECE1249C0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94717A67-34F9-D5C2-3690-154E94691E73" name="PP_CUENTA_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_CUENTA_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>7415345F-BD47-B31C-BA98-6CB5A90DA8E9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8775DC04-4222-8A12-83FA-10B5236E4236"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8A1EEF9-4B48-EE1B-9FEC-35830E80A035" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_CUENTA_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_CUENTA_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>E661B31C-EB98-A404-3C8B-5356D67C0A97</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8775DC04-4222-8A12-83FA-10B5236E4236"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47910098-B900-C059-1BAC-7624819A1286" name="PP_CUENTA_CLASIFICACION_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A4E7B30-D61E-ACB3-92D4-1088110590D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87AEE0EE-3728-EAEF-FD39-AE7593BF5A7A" name="PP_CUENTA_BANCARIA_PP_CLIENTE_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 03:00:23 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62677F7C-C3D6-E11A-FA7A-791DFA501DAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

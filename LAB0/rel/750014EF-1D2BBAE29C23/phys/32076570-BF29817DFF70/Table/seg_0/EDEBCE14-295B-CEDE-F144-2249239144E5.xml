@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PP_TRANSFERENCIA" directorySegmentName="seg_0" id="EDEBCE14-295B-CEDE-F144-2249239144E5">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<schemaObject>BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>61A00AD7-F772-4966-DBBB-F504D083C37F</segment>
+<tableSpace>5085A3E1-F05B-5A72-81FC-8A103AC717B7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHA_TRANSACCION" id="26411BE5-FDD9-39E7-F163-A284DBA8860B">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTO_TRANSFERIDO" id="3143535C-8CB0-AD54-F03D-79D96A2B653C">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUENTA_ORIGEN" id="3617B1D9-F224-88B0-4676-D5E9B7595413">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TRANSFERENCIA" id="4AEA40C6-E18D-C52A-67B2-3A21106BF41B">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MENSAJE" id="7BE1CED3-7EE2-2541-A022-0B0A7DA1430C">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUENTA_DESTINO" id="7C75B3F0-B815-F830-68B7-11B3D845B23B">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_CONFIRMACION" id="8E3C6BA0-F0D4-0D33-044C-1964A826EB4D">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="B66FCEF2-1D19-C0FA-211C-E85CEF35DB73">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PP_TRANSFERENCIA_PK" id="570F2BD6-3CE0-4947-1DED-DC4E093168BA">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<schemaObject>BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2</schemaObject>
+<segment>DB9A8738-C60B-3341-89FD-D9568D094E2C</segment>
+<tableSpace>5085A3E1-F05B-5A72-81FC-8A103AC717B7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PP_TRANSFERENCIA_CUENTA_FK1" id="8E32814D-C19F-61D0-70AD-499E48CAE615">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PP_TRANSFERENCIA_PK" id="3D101E2F-F4A4-0677-1B19-9EA681B113D7">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<segment>DB9A8738-C60B-3341-89FD-D9568D094E2C</segment>
+<tableSpace>5085A3E1-F05B-5A72-81FC-8A103AC717B7</tableSpace>
+<existingIndex>570F2BD6-3CE0-4947-1DED-DC4E093168BA</existingIndex>
+<indexSegment>DB9A8738-C60B-3341-89FD-D9568D094E2C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

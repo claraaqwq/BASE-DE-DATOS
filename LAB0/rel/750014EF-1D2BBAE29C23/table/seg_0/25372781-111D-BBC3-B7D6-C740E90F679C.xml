@@ -1,0 +1,284 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25372781-111D-BBC3-B7D6-C740E90F679C" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_CLIENTE">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_CLIENTE</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabla que registra los clientes del Banco Virtual PerúPago.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>23E8872C-574F-F207-969C-D3A38F584011</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLIENTE" id="936DBD47-877D-5D78-2B33-9D4ECE1249C0">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLIENTE</sourceObjSchema>
+<sourceObjName>ID_CLIENTE</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del cliente.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>D3C8EBFA-C758-F71B-DBD3-BAF740D20EE5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO_PATERNO" id="DF2C3DDD-DF61-817E-B6F5-C41546F7438F">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLIENTE</sourceObjSchema>
+<sourceObjName>APELLIDO_PATERNO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Apellido paterno del cliente.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>8A1DE064-B9DD-AA6C-ECA7-0AE138341887</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO_MATERNO" id="000E1FE7-FD49-AEEE-F664-551FF2C5C47F">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLIENTE</sourceObjSchema>
+<sourceObjName>APELLIDO_MATERNO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Apellido materno del cliente.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>C398B688-0FBE-BA2C-F976-E276EAA47011</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRES" id="B59876E6-69B7-5E0C-6F82-22B8A4BEBD56">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLIENTE</sourceObjSchema>
+<sourceObjName>NOMBRES</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombres del cliente.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>87509ED6-7BB8-CDEB-83C3-F2E9CF68F445</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_DOCUMENTO" id="28737A03-7F52-59DB-DAC1-9EFB9F657592">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLIENTE</sourceObjSchema>
+<sourceObjName>TIPO_DOCUMENTO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo de documento del cliente. 'D' significa que es un DNI (exactamente 8 dígitos), 'R' significa que es un RUC (exactamente 11 dígitos), 'C' significa que es un carnet de extranjería (máximo 12 caracteres), 'P' significa que es un pasaporte (máximo 12 caracteres), 'N' significa que es una partida de nacimiento (máximo 15 caracteres) y 'O' significa que son otros tipos de documento (máximo 15 caracteres).]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>0AE0ABD1-2760-9157-641A-88D04140BF3D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_DOCUMENTO" id="8A566418-F13F-FB01-E96D-CB71F7B7A2C2">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLIENTE</sourceObjSchema>
+<sourceObjName>NUMERO_DOCUMENTO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número de documento del cliente.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>A47914EE-D50B-2DCD-43EC-8CCCB98F2AFA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="282EA060-3FA1-94FF-03E6-E7D2B9128107">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLIENTE</sourceObjSchema>
+<sourceObjName>FECHA_NACIMIENTO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de nacimiento del cliente.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>9A3E19A8-6712-EF0D-EE0E-17C7A8C25513</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="F87B137C-CE84-DA85-2812-B8710E9A2ECA">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLIENTE</sourceObjSchema>
+<sourceObjName>DIRECCION</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dirección exacta de residencia del cliente.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>FC45DAA5-79AB-2F21-76CC-71462EBDD69F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REFERENCIA" id="31E537E2-8C97-838A-DF49-B784E2FCA4F9">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLIENTE</sourceObjSchema>
+<sourceObjName>REFERENCIA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Referencias físicas de la residencia del cliente.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>96DF00F2-A7A3-0C4F-F893-AD3AAA328B68</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UBIGEO" id="BAB8989F-37BB-C5FD-D729-33058F8B8BE4">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLIENTE</sourceObjSchema>
+<sourceObjName>UBIGEO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ubigeo del distrito de residencia del cliente.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>FF0086FF-2410-2146-C232-2E95072DEF6A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07D8CBBA-6429-A4FB-7747-17C7073F76CB" referredColumn="E42D63D9-1B8F-FA2C-FD30-D083BCDAF7E9"/>
+</associations>
+</Column>
+<Column name="TELEFONO_CONTACTO" id="615CCA12-4A57-489F-4485-111899971978">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLIENTE</sourceObjSchema>
+<sourceObjName>TELEFONO_CONTACTO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Teléfono de contacto del cliente.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>BE3CC359-C5D3-8956-552A-9B08BBE4EFDB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_ELECTRONICO" id="9686DE60-8E6F-CBE2-2BBB-7183F5B4E651">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLIENTE</sourceObjSchema>
+<sourceObjName>CORREO_ELECTRONICO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Correo electrónico del cliente.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>EFFC1E51-B11E-6DBC-EE8E-36BF82D8BD01</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="0CDE1B83-3B86-3D9E-1E00-191022014300">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLIENTE</sourceObjSchema>
+<sourceObjName>FECHA_CREACION</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de creación del cliente.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>784429FD-8F6B-3BEE-D77A-343B57E15BAF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="5EF54B77-56F3-EABF-9C0B-FAF4D7BAD4D4">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLIENTE</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado del cliente. 'V' significa que el cliente está vigente, 'B' que el cliente se encuentra bloqueado y 'E' que el cliente está eliminado.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>A1868BE4-346B-49E1-8945-3180BD5CE690</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDBBDF3F-2409-57B7-917D-ED68CE85583F" name="PP_CLIENTE_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_CLIENTE_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>09CB39A3-344A-845F-2778-05C3C7BD6A6D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="936DBD47-877D-5D78-2B33-9D4ECE1249C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BE8ADA7-C1E3-1381-CE4D-76F5809C5399" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_CLIENTE_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_CLIENTE_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>8E09FB20-9315-3262-67CF-C951C04DC46C</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="936DBD47-877D-5D78-2B33-9D4ECE1249C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28A2A184-8B93-3691-D7B7-F8DB0E3A6290" name="PP_CLIENTE_DISTRITO_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAB8989F-37BB-C5FD-D729-33058F8B8BE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

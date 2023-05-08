@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5923A6A8-3001-B677-C841-05036D02746B" name="ET_TURNO">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:57:10 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TURNO" id="BD2EA98E-6850-8780-13CB-02E5B12116F0">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:57:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL TURNO]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CONDUCTOR" id="67D757C1-CB60-D9FD-5653-EB79377E5C0E">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:57:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL CONDUCTOR ASIGNADO PARA EL TURNO]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_BUS" id="9536AF94-C9D4-3332-9C4E-FFE234EA276C">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:58:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL BUS ASIGNADO PARA EL TURNO]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA_PARTIDA" id="8A1DAFC9-C146-CA76-6DBF-80F85C7FABCF">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:58:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[HORA DE PARTIDA DEL BUS DEL PARADERO INICIAL]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA_LLEGADA_PROGRAMADA" id="7F14913A-A88D-0C69-A2F9-0B02CD872501">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:58:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[HORA DE LLEGADA DEL BUS AL PARADERO TERMINAL (PROGRAMADA)]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA_LLEGADA_REAL" id="05D34261-32FA-146E-AC3E-99B8E66AE414">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:59:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[HORA DE LLEGADA DEL BUS AL PARADERO TERMINAL (REGISTRADA)]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SENTIDO" id="E5ED5E57-B6EC-2330-B0C8-389863394039">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 01:00:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[SENTIDO DEL TURNO.
+'I': IDA, 'V': VUELTA]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_BUS1" id="80C99F6F-54A0-5F8A-D0E3-C43CD93E6754">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 01:16:17 UTC</createdTime>
+<generatorID>9EACEA67-8CF2-B741-C295-03ADC90420ED</generatorID>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<referedAttribute>43DD66BD-F075-AC1D-B606-9F2E13C6E636</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CONDUCTOR1" id="6749A4CA-CCA7-F3EA-5527-49282A3CBA86">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 01:18:31 UTC</createdTime>
+<generatorID>CA15D10B-5DB7-96D4-D8C9-AC31FF3B3906</generatorID>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<referedAttribute>5E42C98A-DD3C-AC24-CD15-6CA0137AE4F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7EE4BB92-76F5-C37A-67A7-89B81CA3EE71" name="ET_TURNO PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:57:33 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BD2EA98E-6850-8780-13CB-02E5B12116F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

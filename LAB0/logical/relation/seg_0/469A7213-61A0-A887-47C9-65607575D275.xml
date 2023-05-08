@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ET_MODELO_BUS" directorySegmentName="seg_0" id="469A7213-61A0-A887-47C9-65607575D275">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:41:34 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<sourcePk>DE4615BE-78DA-D89C-CA9B-001FA68E480D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3FDA3537-FD13-824D-8466-8F2577F4F35F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>71417319-7CA5-6759-3C48-51B2990547C6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

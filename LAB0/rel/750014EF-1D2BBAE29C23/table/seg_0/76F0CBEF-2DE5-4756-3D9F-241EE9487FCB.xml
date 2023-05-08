@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76F0CBEF-2DE5-4756-3D9F-241EE9487FCB" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_CLASIFICACION_CUENTA">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_CLASIFICACION_CUENTA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabla que registra las clasificaciones que puede tener una cuenta bancaria.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>157A1201-A571-890C-F0B6-EB1848FF7AF1</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLASIFICACION" id="39661E33-C219-4FC7-2DEF-944266BEFC7D">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLASIFICACION_CUENTA</sourceObjSchema>
+<sourceObjName>ID_CLASIFICACION</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la clasificación de cuenta.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>3CF79D55-0837-345B-F6BC-07183C705DC1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="6C1499A6-C35A-87BC-57B5-0CB0A2B5D501">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLASIFICACION_CUENTA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre asignado a la clasificación de cuenta.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>0F6884AC-FE17-5A1F-F53C-D7B8251BB698</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="96FCD97A-113B-DB43-E02A-42FC8673F23C">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLASIFICACION_CUENTA</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripción informativa de la clasificación de cuenta.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>2173A00E-F77F-2B1D-6997-D547B93C56FA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TASA_INTERES" id="77F141EC-6259-4C82-E0AA-C5BBD49C293E">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLASIFICACION_CUENTA</sourceObjSchema>
+<sourceObjName>TASA_INTERES</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Porcentaje representativo de la tasa de interés mensual que gana la cuenta bancaria.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>63765D76-24CC-6472-50D0-25DB9A256D9A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_LIBRE" id="3BA742E6-4C82-7756-B81C-7FFDD7099D50">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLASIFICACION_CUENTA</sourceObjSchema>
+<sourceObjName>NUM_LIBRE</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número entero que representa la cantidad de transacciones sin costo que tendrá la cuenta bancaria por mes.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>49E85BA7-5C0E-830F-0D82-254158C48AA1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTO_TRANSACCION" id="7E505BEC-06A1-D62B-CCBD-262A32D29409">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLASIFICACION_CUENTA</sourceObjSchema>
+<sourceObjName>COSTO_TRANSACCION</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Costo (en S/.) de una transacción realizada por una cuenta bancaria de este tipo. Esta tarifa se empieza a cobrar de la cuenta una vez que se superan la cantidad de transacciones sin costo del mes.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>C946346F-8464-AFBD-84B4-E2679E0FC248</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIMITE_TRANSFERENCIA" id="89206749-700B-3EF1-2A45-F8D4AA94300A">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLASIFICACION_CUENTA</sourceObjSchema>
+<sourceObjName>LIMITE_TRANSFERENCIA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Monto límite que puede transferir la cuenta en el día (en una o varias transferencias en el transcurso del día).]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>ACF9B48D-D02E-BFD1-78BE-2AC6D2B7E6BD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BENEFICIO_BANCO" id="4384BA2B-4838-152B-AD4D-93550B49D127">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_CLASIFICACION_CUENTA</sourceObjSchema>
+<sourceObjName>BENEFICIO_BANCO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor que representa si la cuenta tendrá los beneficios del "club" del Banco. 'S' representa que tiene todos los beneficios, 'P' representa que tiene algunos beneficios (parcial) y 'N' representa que no tiene ninguno.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>DC2092B8-D019-45E1-A870-3908D9BF98EB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39A94712-238A-FE93-0733-6A8D79FE9643" name="PP_CLASIFICACION_CUENTA_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_CLASIFICACION_CUENTA_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>D707E86A-DD44-052B-5F5B-16A4DDE092C4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39661E33-C219-4FC7-2DEF-944266BEFC7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E65F2BB-D1D5-66BC-3B7C-8FDDA9484E8F" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_CLASIFICACION_CUENTA_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_CLASIFICACION_CUENTA_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>2D15672B-9DD1-82D3-570E-E439372BE6E0</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39661E33-C219-4FC7-2DEF-944266BEFC7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

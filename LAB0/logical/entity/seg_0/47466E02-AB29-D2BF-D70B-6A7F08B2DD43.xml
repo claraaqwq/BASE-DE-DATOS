@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47466E02-AB29-D2BF-D70B-6A7F08B2DD43" name="ET_PARADERO">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:06:52 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PARADERO" id="5275251B-F9B3-005E-B9C8-5A7D91460C5F">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:07:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE PARADERO]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="5FB720FB-73DA-C921-4224-13356E5D0DA3">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:07:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE CLAVE DEL PARADERO]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISTRITO" id="7AD85668-47FC-D54D-336C-5C6661998AA6">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:08:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL DISTRITO ASOCIADO AL PARADERO]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REFERENCIA" id="142004E3-C5F3-AC7D-4AC8-51E2E6FB16A6">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:09:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION DE LAS CALLES PRINCIPALES ASOCIADAS AL PARADERO]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO" id="C6116C96-6710-8189-12E4-2E888988B68C">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:10:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[TIPO DEL PARADERO:
+'I' : TERMINAL INICIAL DE RUTA
+'F': TERMINAL FINAL DE RUTA
+'N': OTRO PARADERO]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="29E9EB61-E928-AA16-B145-31A0CED67441">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:11:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL ESTADO DEL PARADERO
+'A: ACTUALMENTE SE USA
+'B': PARADERO DADO DE BAJA
+'T: PARADERO REUBICADO TEMPORALMENTE]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DISTRITO" id="CC630335-14AC-BB74-FC91-92D04E996D81">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:31:17 UTC</createdTime>
+<generatorID>63DE7C86-77FA-19E4-61CF-63CA4A2B7352</generatorID>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<referedAttribute>00C0EACD-EDD7-633E-B7B4-3FF3B198FDB3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F68A712B-C807-F40B-2B0F-0769F249599C" name="ET_PARADERO PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:07:29 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5275251B-F9B3-005E-B9C8-5A7D91460C5F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

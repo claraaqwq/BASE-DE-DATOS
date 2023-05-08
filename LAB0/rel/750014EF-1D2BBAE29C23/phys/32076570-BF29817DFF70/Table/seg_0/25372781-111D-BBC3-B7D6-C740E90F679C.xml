@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PP_CLIENTE" directorySegmentName="seg_0" id="25372781-111D-BBC3-B7D6-C740E90F679C">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<schemaObject>BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>61A00AD7-F772-4966-DBBB-F504D083C37F</segment>
+<tableSpace>5085A3E1-F05B-5A72-81FC-8A103AC717B7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="APELLIDO_MATERNO" id="000E1FE7-FD49-AEEE-F664-551FF2C5C47F">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_CREACION" id="0CDE1B83-3B86-3D9E-1E00-191022014300">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_NACIMIENTO" id="282EA060-3FA1-94FF-03E6-E7D2B9128107">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_DOCUMENTO" id="28737A03-7F52-59DB-DAC1-9EFB9F657592">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REFERENCIA" id="31E537E2-8C97-838A-DF49-B784E2FCA4F9">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="5EF54B77-56F3-EABF-9C0B-FAF4D7BAD4D4">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFONO_CONTACTO" id="615CCA12-4A57-489F-4485-111899971978">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO_DOCUMENTO" id="8A566418-F13F-FB01-E96D-CB71F7B7A2C2">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CLIENTE" id="936DBD47-877D-5D78-2B33-9D4ECE1249C0">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREO_ELECTRONICO" id="9686DE60-8E6F-CBE2-2BBB-7183F5B4E651">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRES" id="B59876E6-69B7-5E0C-6F82-22B8A4BEBD56">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UBIGEO" id="BAB8989F-37BB-C5FD-D729-33058F8B8BE4">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO_PATERNO" id="DF2C3DDD-DF61-817E-B6F5-C41546F7438F">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECCION" id="F87B137C-CE84-DA85-2812-B8710E9A2ECA">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PP_CLIENTE_PK" id="1BE8ADA7-C1E3-1381-CE4D-76F5809C5399">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<schemaObject>BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2</schemaObject>
+<segment>DB9A8738-C60B-3341-89FD-D9568D094E2C</segment>
+<tableSpace>5085A3E1-F05B-5A72-81FC-8A103AC717B7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PP_CLIENTE_DISTRITO_FK" id="28A2A184-8B93-3691-D7B7-F8DB0E3A6290">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PP_CLIENTE_PK" id="FDBBDF3F-2409-57B7-917D-ED68CE85583F">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<segment>DB9A8738-C60B-3341-89FD-D9568D094E2C</segment>
+<tableSpace>5085A3E1-F05B-5A72-81FC-8A103AC717B7</tableSpace>
+<existingIndex>1BE8ADA7-C1E3-1381-CE4D-76F5809C5399</existingIndex>
+<indexSegment>DB9A8738-C60B-3341-89FD-D9568D094E2C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

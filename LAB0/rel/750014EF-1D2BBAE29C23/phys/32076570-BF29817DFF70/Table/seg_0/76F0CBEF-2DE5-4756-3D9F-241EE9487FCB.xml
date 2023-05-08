@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PP_CLASIFICACION_CUENTA" directorySegmentName="seg_0" id="76F0CBEF-2DE5-4756-3D9F-241EE9487FCB">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<schemaObject>BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>61A00AD7-F772-4966-DBBB-F504D083C37F</segment>
+<tableSpace>5085A3E1-F05B-5A72-81FC-8A103AC717B7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_CLASIFICACION" id="39661E33-C219-4FC7-2DEF-944266BEFC7D">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_LIBRE" id="3BA742E6-4C82-7756-B81C-7FFDD7099D50">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BENEFICIO_BANCO" id="4384BA2B-4838-152B-AD4D-93550B49D127">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="6C1499A6-C35A-87BC-57B5-0CB0A2B5D501">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TASA_INTERES" id="77F141EC-6259-4C82-E0AA-C5BBD49C293E">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COSTO_TRANSACCION" id="7E505BEC-06A1-D62B-CCBD-262A32D29409">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LIMITE_TRANSFERENCIA" id="89206749-700B-3EF1-2A45-F8D4AA94300A">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="96FCD97A-113B-DB43-E02A-42FC8673F23C">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PP_CLASIFICACION_CUENTA_PK" id="0E65F2BB-D1D5-66BC-3B7C-8FDDA9484E8F">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<schemaObject>BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2</schemaObject>
+<segment>DB9A8738-C60B-3341-89FD-D9568D094E2C</segment>
+<tableSpace>5085A3E1-F05B-5A72-81FC-8A103AC717B7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PP_CLASIFICACION_CUENTA_PK" id="39A94712-238A-FE93-0733-6A8D79FE9643">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<segment>DB9A8738-C60B-3341-89FD-D9568D094E2C</segment>
+<tableSpace>5085A3E1-F05B-5A72-81FC-8A103AC717B7</tableSpace>
+<existingIndex>0E65F2BB-D1D5-66BC-3B7C-8FDDA9484E8F</existingIndex>
+<indexSegment>DB9A8738-C60B-3341-89FD-D9568D094E2C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

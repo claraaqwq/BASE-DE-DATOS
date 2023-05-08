@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONDUCTOR_TURNO" directorySegmentName="seg_0" id="CA15D10B-5DB7-96D4-D8C9-AC31FF3B3906">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 01:18:31 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<sourcePk>C895E506-54E6-49AC-47EA-36B03C256E6A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>33428D5F-A47A-D920-8EE6-00E6323ACAF6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5923A6A8-3001-B677-C841-05036D02746B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

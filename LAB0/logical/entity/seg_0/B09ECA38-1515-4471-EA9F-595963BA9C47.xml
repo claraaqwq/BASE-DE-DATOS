@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B09ECA38-1515-4471-EA9F-595963BA9C47" name="ET_MATRIZPAGO">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 20:57:42 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PARADERO_IN" id="C1D774BA-0C3D-FDB2-C1E0-CDE2A510ADEB">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 20:57:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PARADERO_OUT" id="0A9BC649-3842-CE92-430E-707379E0C09B">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 20:58:13 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECIO_PARADEROS" id="2A632AED-C72E-BDC1-6511-B37C6C41CDCF">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 20:58:32 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PARADERO" id="1BC05783-9C1C-697F-FD81-19BB2BD847FC">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 21:09:27 UTC</createdTime>
+<generatorID>96C8D089-CCE5-5BBF-7BE0-B814903CA353</generatorID>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<referedAttribute>5275251B-F9B3-005E-B9C8-5A7D91460C5F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PARADERO1" id="6B29FFB2-3949-C691-944E-5339DD563A33">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 21:09:33 UTC</createdTime>
+<generatorID>5FE0EEE9-2669-B345-EC4D-B50F23074959</generatorID>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<referedAttribute>5275251B-F9B3-005E-B9C8-5A7D91460C5F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ECD21305-91F8-2361-2E44-3DD9217A73CE" name="ET_MATRIZPAGO PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 20:58:10 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C1D774BA-0C3D-FDB2-C1E0-CDE2A510ADEB</attributeRef>
+<attributeRef>0A9BC649-3842-CE92-430E-707379E0C09B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

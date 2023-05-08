@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PARADERO_TICKET" directorySegmentName="seg_0" id="D8B51271-32A2-D5EE-7319-068BF7CE3893">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 17:39:11 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<sourcePk>F68A712B-C807-F40B-2B0F-0769F249599C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>47466E02-AB29-D2BF-D70B-6A7F08B2DD43</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7FE9E238-851F-A8D5-CA65-2F57B9AB1083</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C97597A-6595-AB06-1D3A-590734BE2DFF" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_PROVINCIA">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_PROVINCIA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabla que registra las provincias del Perú.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>9CFE9F7B-2D2B-47A8-771E-6D653B59EB27</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROVINCIA" id="3D8ADE3F-93D8-ADC3-47C6-EC3EB91DAE7F">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_PROVINCIA</sourceObjSchema>
+<sourceObjName>ID_PROVINCIA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ubigeo de la provincia.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>5DF88DED-CE5A-E73B-DB8F-4ABAC7714921</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="2B0428A5-BC27-B649-6B0A-A6218B089F64">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_PROVINCIA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la provincia.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>AB1026CD-6FF8-8D55-4CF8-26CAD8D9F189</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_REGION" id="2797445B-31F8-2375-2905-5BF63C77084E">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_PROVINCIA</sourceObjSchema>
+<sourceObjName>ID_REGION</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ubigeo de la región a la que pertenece la provincia.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>580D2F24-4A06-0AA3-DD7F-568C495C31EC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28E9EE10-E30B-7BB8-7F3B-01FB6365B0F6" referredColumn="8F311082-C677-B0AB-0C29-AAB459BD5B09"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFD0931B-53B6-DBDF-9709-F1AEBBC13B04" name="PP_PROVINCIA_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_PROVINCIA_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>8E12A270-4203-206A-0AFC-AE63072E5689</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D8ADE3F-93D8-ADC3-47C6-EC3EB91DAE7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED08E0A0-F6E0-A4B7-BCD7-C3E678CD051B" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_PROVINCIA_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_PROVINCIA_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>AA2BF778-4360-F51C-A947-4549537AE5DC</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D8ADE3F-93D8-ADC3-47C6-EC3EB91DAE7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="051C9D7E-4EDE-4F17-6C52-553304A1C201" name="PP_PROVINCIA_REGION_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2797445B-31F8-2375-2905-5BF63C77084E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

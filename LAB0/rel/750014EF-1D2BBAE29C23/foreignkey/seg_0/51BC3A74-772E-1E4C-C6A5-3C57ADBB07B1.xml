@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="51BC3A74-772E-1E4C-C6A5-3C57ADBB07B1" containerWithKeyObject="7497E3C4-20F5-466E-5E67-298301406123" localFKIndex="47910098-B900-C059-1BAC-7624819A1286" name="PP_CUENTA_CLASIFICACION_FK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_CUENTA_CLASIFICACION_FK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>34DCD49C-84F2-0C35-9D4C-173DAC9971D4</importedID>
+<referredTableLongName>A20210944.PP_CLASIFICACION_CUENTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>76F0CBEF-2DE5-4756-3D9F-241EE9487FCB</referredTableID>
+<keyObject>39A94712-238A-FE93-0733-6A8D79FE9643</keyObject>
+<referredKeyID>39A94712-238A-FE93-0733-6A8D79FE9643</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CLASIFICACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

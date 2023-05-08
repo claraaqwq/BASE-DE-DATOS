@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2506628E-F6F5-F5F2-6BBC-5B0B0B96CFFE" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_TARJETA_BANCARIA">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_TARJETA_BANCARIA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabla que registra las tarjetas bancarias emitidas por el Banco Virtual PerúPago.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>85957F6C-463C-DE50-CA08-CF9835BD36D5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TARJETA" id="155B6303-B768-E218-9D09-58A541E54209">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TARJETA_BANCARIA</sourceObjSchema>
+<sourceObjName>ID_TARJETA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la tarjeta bancaria.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>CB7CD39F-499F-0E83-C0DF-3EE15D068620</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_TARJETA" id="46BD3114-99EF-CC8D-C473-E535F00687D2">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TARJETA_BANCARIA</sourceObjSchema>
+<sourceObjName>NUMERO_TARJETA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número de la tarjeta bancaria.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>C6C2DE3F-2ECF-40C8-6968-25E9F043E92A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CUENTA" id="CDC7899C-9FFD-E6CD-0EC5-CB21C37CA5FA">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TARJETA_BANCARIA</sourceObjSchema>
+<sourceObjName>ID_CUENTA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la cuenta bancaria a la que pertenece la tarjeta.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>02AD7197-68DC-AE57-F18C-066F0779369B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEC74070-47F1-A6FD-DC1C-8651B89A650B" referredColumn="8775DC04-4222-8A12-83FA-10B5236E4236"/>
+</associations>
+</Column>
+<Column name="UBICACION" id="CAFA4FB7-421B-1D76-2D06-31E27B497A2D">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TARJETA_BANCARIA</sourceObjSchema>
+<sourceObjName>UBICACION</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ubicación de la tarjeta bancaria. ‘V’ significa que la tarjeta sólo tiene su versión virtual, ‘F’ significa que sólo tiene versión en físico y ‘A’ significa que tiene ambas versiones.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>2A524459-6C96-0FCE-6789-20F916BE5246</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_EMISION" id="08EC57EB-2287-F4CB-2B7B-84240ED2307A">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TARJETA_BANCARIA</sourceObjSchema>
+<sourceObjName>FECHA_EMISION</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de emisión de la tarjeta.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>3C916CBC-45B8-4695-E6B5-9F509C082B4B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_VENCIMIENTO" id="C91D2DDB-7018-CE9B-E2C3-49BA0C59C4E9">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TARJETA_BANCARIA</sourceObjSchema>
+<sourceObjName>FECHA_VENCIMIENTO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de vencimiento impresa en la tarjeta bancaria.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>5A48E572-1962-4BB5-9440-0495E382ABDC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="A455D665-D9D6-8F41-97C5-A884FA1B1600">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TARJETA_BANCARIA</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado de la tarjeta. 'V' significa que la tarjeta está vigente, 'P' que la tarjeta se encuentra en proceso de emisión, 'B' que la tarjeta está bloqueada y 'A' que la tarjeta ha sido anulada.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>924DC76F-1544-1357-99E0-6122B24B05BF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPRAS_INTERNET" id="5BAE37C0-907C-C6E3-3C00-81FA7E971DB6">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TARJETA_BANCARIA</sourceObjSchema>
+<sourceObjName>COMPRAS_INTERNET</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[INDICA SI LA TARJETA ESTÁ HABILITADA PARA REALIZAR COMPRAS POR INTERNET. (A o I)]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>0F1F4306-0E5A-CD27-EACE-D7DCE37DCB6E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3040280C-8E40-8FC1-CEB5-3409F9E53CFB" name="PP_TARJETA_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_TARJETA_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>CEC8DA5A-A691-22BE-31E7-6DA49646139E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="155B6303-B768-E218-9D09-58A541E54209"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96B70ADC-1839-2C24-F17E-6581B247B1C5" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_TARJETA_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_TARJETA_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>77297AE7-6FBF-F0BB-22B8-BDDEC995812A</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="155B6303-B768-E218-9D09-58A541E54209"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AC454FC-8F05-D8EA-006C-08A1E00F86D9" name="PP_TARJETA_CUENTA_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDC7899C-9FFD-E6CD-0EC5-CB21C37CA5FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

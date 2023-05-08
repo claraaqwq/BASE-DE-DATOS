@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BUS_TURNO" directorySegmentName="seg_0" id="9EACEA67-8CF2-B741-C295-03ADC90420ED">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 01:16:17 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<sourcePk>96D51F47-DAE5-D08D-3B5E-095C77D1CC89</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>71417319-7CA5-6759-3C48-51B2990547C6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5923A6A8-3001-B677-C841-05036D02746B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

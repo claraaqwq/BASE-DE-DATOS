@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FDA3537-FD13-824D-8466-8F2577F4F35F" name="ET_MODELOBUS">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:33:11 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_MODELO" id="3EF75BFE-B49A-64D5-C649-0F5285693FB7">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:33:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL MODELO DE BUS]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FABRICANTE" id="691ABC99-C8AE-E15D-774F-1D10F0417181">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:33:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DEL FABRICANTE DEL MODELO BUS]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ANHO_FABRICACION" id="50E77880-041B-7390-55E8-9CEA6421460E">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:34:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR MAXIMO DE LA VELOCIDAD DEL BUS]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOPE_VELOCIDAD" id="FE6C743B-A16A-5B5E-CD63-0872898D0866">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:34:40 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_ASIENTOS" id="DFCAA9FF-31AA-1D5E-5ABB-48E861DBC017">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:34:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DE PASAJEROS QUE EL BUS PUEDE ADMITIR SENTADOS]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CAPACIDAD_PARADA" id="F0E1CC23-9B6A-FA5B-DED5-A8430E553285">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:35:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DE PASAJEROS QUE PUEDEN IR PARADOS DURANTE EL TRAYECTO]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DE4615BE-78DA-D89C-CA9B-001FA68E480D" name="ET_MODELOBUS PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:33:36 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3EF75BFE-B49A-64D5-C649-0F5285693FB7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

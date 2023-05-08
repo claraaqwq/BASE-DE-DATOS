@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="898934C4-A6AE-932B-E045-CBB0670F641F" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_DISTRITO">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_DISTRITO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabla que registra los distritos del Perú.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>EF4E2D9E-D35C-C63E-1CD9-4993CF3A4DE8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DISTRITO" id="E42D63D9-1B8F-FA2C-FD30-D083BCDAF7E9">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_DISTRITO</sourceObjSchema>
+<sourceObjName>ID_DISTRITO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ubigeo del distrito.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>ED98A11D-75E1-62C7-4198-D23B5FD82C7D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="576A515E-08CE-84F3-5E89-425350D1723E">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_DISTRITO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del distrito.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>BD8EB52B-C30B-0A91-D94A-0E3DA92B5526</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PROVINCIA" id="2B5C4C42-EEA1-302B-30A9-7082B30BB14B">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_DISTRITO</sourceObjSchema>
+<sourceObjName>ID_PROVINCIA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ubigeo de la provincia a la que pertenece el distrito.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>F716C03F-93B6-6189-BE35-73F643FB81F9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB0C6140-A3D9-D5A8-E477-EBE31592E90F" referredColumn="3D8ADE3F-93D8-ADC3-47C6-EC3EB91DAE7F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="131542FE-6818-41D3-18E9-465B70D5B4F3" name="PP_DISTRITO_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_DISTRITO_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>9CEF64C9-843D-EEE5-4A4C-4DD8259B7DB1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E42D63D9-1B8F-FA2C-FD30-D083BCDAF7E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65F1B909-997B-615D-FD97-DF276C20D5A2" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_DISTRITO_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_DISTRITO_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>1FC1F6A5-F5DE-CE35-E4E3-2F27F51AC356</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E42D63D9-1B8F-FA2C-FD30-D083BCDAF7E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7F12E3E-531A-7D39-7DD3-A7CF6160FC3C" name="PP_DISTRITO_PROVINCIA_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B5C4C42-EEA1-302B-30A9-7082B30BB14B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

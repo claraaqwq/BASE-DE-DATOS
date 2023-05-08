@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4366FBB6-1A85-36FB-75CC-2EC5FE64EEF6" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_REGION">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_REGION</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabla que registra las regiones (anteriormente departamentos) del Perú.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>98B2D8EA-F53C-47A0-0935-EC0494797D42</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_REGION" id="8F311082-C677-B0AB-0C29-AAB459BD5B09">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_REGION</sourceObjSchema>
+<sourceObjName>ID_REGION</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ubigeo de la región.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>3E4641F6-C29C-E035-8E83-42576E924AFA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="6D94007F-BCEF-EC5D-12EB-5BB6D6028CF0">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_REGION</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la región.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>6FCCCD09-56A9-1400-2CE0-7DE67AEE6D8A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED8F6A25-C2D9-E347-4E07-5EEEA8C0AA12" name="PP_REGION_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_REGION_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>4B11C0FD-58F4-64A1-E8B8-4715403F19D7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F311082-C677-B0AB-0C29-AAB459BD5B09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F86F25E-47F5-FEF5-C540-A7F1C2B3E81C" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_REGION_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_REGION_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>8FD6D3DA-3FDB-3592-756C-9C9239B245C7</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F311082-C677-B0AB-0C29-AAB459BD5B09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

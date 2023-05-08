@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED66C5B6-65F4-B985-A536-C30034420D0F" name="ET_TURNO_PARADERO">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 17:14:52 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TURNO" id="754DA0A1-C94B-AD18-5C25-404BB141B602">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 17:19:47 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PARADERO_1" id="6C60EDE2-76B4-AE78-C068-430BF3B22061">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 17:21:20 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA_LLEGADA" id="48E48A06-611D-2194-C79A-E147D7CB2FD6">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 17:21:36 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANTIDAD_PASAJEROS_IN" id="C0B6B5F8-A4E3-A562-50C9-0398AACC87D2">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 17:21:49 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANTIDAD_PASAJEROS_OUT" id="ACEBD375-4F82-D646-6AB4-1A448EA5B0F3">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 17:22:37 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PARADERO" id="B6D0848E-8D62-7DBE-A412-D1188BB40E6F">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 17:26:33 UTC</createdTime>
+<generatorID>7B0F1B14-20D4-2069-1C75-D09BAD85385D</generatorID>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<referedAttribute>5275251B-F9B3-005E-B9C8-5A7D91460C5F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TURNO1" id="66054BEE-6A52-C61F-79E4-87743BC1D276">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 17:26:58 UTC</createdTime>
+<generatorID>CFA2E08C-CEDC-A648-CF8B-53F0435479F6</generatorID>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<referedAttribute>BD2EA98E-6850-8780-13CB-02E5B12116F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C35CC5B8-6FD4-0257-5C0E-8513D1E85C58" name="ET_TURNO_PARADERO PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 17:21:15 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>754DA0A1-C94B-AD18-5C25-404BB141B602</attributeRef>
+<attributeRef>6C60EDE2-76B4-AE78-C068-430BF3B22061</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

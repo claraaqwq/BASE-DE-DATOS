@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BEC74070-47F1-A6FD-DC1C-8651B89A650B" containerWithKeyObject="2506628E-F6F5-F5F2-6BBC-5B0B0B96CFFE" localFKIndex="5AC454FC-8F05-D8EA-006C-08A1E00F86D9" name="PP_TARJETA_CUENTA_FK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_TARJETA_CUENTA_FK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>7A0E69A6-D8C8-0480-B7F7-2F48F583E9D6</importedID>
+<referredTableLongName>A20210944.PP_CUENTA_BANCARIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7497E3C4-20F5-466E-5E67-298301406123</referredTableID>
+<keyObject>94717A67-34F9-D5C2-3690-154E94691E73</keyObject>
+<referredKeyID>94717A67-34F9-D5C2-3690-154E94691E73</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CUENTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

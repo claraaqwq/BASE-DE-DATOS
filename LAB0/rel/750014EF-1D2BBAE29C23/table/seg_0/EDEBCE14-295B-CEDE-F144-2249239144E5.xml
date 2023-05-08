@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDEBCE14-295B-CEDE-F144-2249239144E5" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_TRANSFERENCIA">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_TRANSFERENCIA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabla que registra las transferencias entre las cuentas bancarias.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>85A6A1D9-2372-D94D-CBFF-80820FF8D62C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TRANSFERENCIA" id="4AEA40C6-E18D-C52A-67B2-3A21106BF41B">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TRANSFERENCIA</sourceObjSchema>
+<sourceObjName>ID_TRANSFERENCIA</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la transferencia.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>13772434-2B3C-4325-F48B-68515BC362AD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUENTA_ORIGEN" id="3617B1D9-F224-88B0-4676-D5E9B7595413">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TRANSFERENCIA</sourceObjSchema>
+<sourceObjName>CUENTA_ORIGEN</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cuenta de origen de la transferencia, la cual transfiere el monto.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>F9EA4E11-A4A9-574D-6E32-A4DAF07DA9ED</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B9F8819-A994-1A73-76D8-690B035E1930" referredColumn="8775DC04-4222-8A12-83FA-10B5236E4236"/>
+</associations>
+</Column>
+<Column name="CUENTA_DESTINO" id="7C75B3F0-B815-F830-68B7-11B3D845B23B">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TRANSFERENCIA</sourceObjSchema>
+<sourceObjName>CUENTA_DESTINO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cuenta de destino de la transferencia, la cual recibe el monto.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>FF41738D-2A06-E309-FC0D-0415BE9C43B2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO_TRANSFERIDO" id="3143535C-8CB0-AD54-F03D-79D96A2B653C">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TRANSFERENCIA</sourceObjSchema>
+<sourceObjName>MONTO_TRANSFERIDO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Monto de la transferencia.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>4B05FA32-E97B-147D-617D-BEDC87FD1B79</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENSAJE" id="7BE1CED3-7EE2-2541-A022-0B0A7DA1430C">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TRANSFERENCIA</sourceObjSchema>
+<sourceObjName>MENSAJE</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Mensaje personalizado que puede enviar el cliente dueño de la cuenta de origen.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>31F31CC6-BF32-1C38-4971-70D8410C7C09</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_TRANSACCION" id="26411BE5-FDD9-39E7-F163-A284DBA8860B">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TRANSFERENCIA</sourceObjSchema>
+<sourceObjName>FECHA_TRANSACCION</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de transacción de la transferencia.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>09650015-3373-7754-49A3-2753D1592451</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CONFIRMACION" id="8E3C6BA0-F0D4-0D33-044C-1964A826EB4D">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TRANSFERENCIA</sourceObjSchema>
+<sourceObjName>FECHA_CONFIRMACION</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de confirmación de la transferencia. Es el momento en el cual se acepta la realización de la transferencia: hay algunas transferencias que se confirman al instante; otras se confirman en horas, comúnmente cuando el monto es lo suficiente grande).]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>5B75BCE5-FF95-08D7-8A7C-5D3F30EC9786</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="B66FCEF2-1D19-C0FA-211C-E85CEF35DB73">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>PP_TRANSFERENCIA</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado de la transferencia. 'C' significa que la transferencia ha sido confirmada, 'P' que la transferencia está en proceso a ser confirmada y 'A' que la transferencia ha sido anulada.]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>992233D2-CB99-AC8B-48C0-035ADB1505BD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D101E2F-F4A4-0677-1B19-9EA681B113D7" name="PP_TRANSFERENCIA_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_TRANSFERENCIA_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>4E60682C-F67B-DE96-B3DA-D1D936D5B506</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AEA40C6-E18D-C52A-67B2-3A21106BF41B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="570F2BD6-3CE0-4947-1DED-DC4E093168BA" schemaObject="BCAC33FC-217B-198C-E5DF-7EEB3DBCF1F2" name="PP_TRANSFERENCIA_PK">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>PP_TRANSFERENCIA_PK</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<importedID>8C5255B3-69EE-11BE-88BD-ABB65D96F58B</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AEA40C6-E18D-C52A-67B2-3A21106BF41B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E32814D-C19F-61D0-70AD-499E48CAE615" name="PP_TRANSFERENCIA_CUENTA_FK1">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:51 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3617B1D9-F224-88B0-4676-D5E9B7595413"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

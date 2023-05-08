@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ET_PARADERO_TURNO_PARADERO" directorySegmentName="seg_0" id="7B0F1B14-20D4-2069-1C75-D09BAD85385D">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 17:26:33 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<sourcePk>F68A712B-C807-F40B-2B0F-0769F249599C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>47466E02-AB29-D2BF-D70B-6A7F08B2DD43</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ED66C5B6-65F4-B985-A536-C30034420D0F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

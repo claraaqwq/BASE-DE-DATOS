@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="INF246_V205" directorySegmentName="seg_0" id="5085A3E1-F05B-5A72-81FC-8A103AC717B7">
+<sourceConnName>LAB1_2021-2</sourceConnName>
+<sourceObjSchema>A20210944</sourceObjSchema>
+<sourceObjName>INF246_V205</sourceObjName>
+<createdBy>clara</createdBy>
+<createdTime>2023-04-24 02:55:26 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

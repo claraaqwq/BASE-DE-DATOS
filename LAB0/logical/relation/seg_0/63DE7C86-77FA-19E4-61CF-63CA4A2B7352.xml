@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ET_DISTRITO_PARADERO" directorySegmentName="seg_0" id="63DE7C86-77FA-19E4-61CF-63CA4A2B7352">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:31:17 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<sourcePk>4A9F4B7E-8064-D18D-958C-31FDD166CD3B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B216DB44-F9F9-A309-B9FF-EFC4A25BBAC8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>47466E02-AB29-D2BF-D70B-6A7F08B2DD43</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33428D5F-A47A-D920-8EE6-00E6323ACAF6" name="ET_CONDUCTOR">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:48:23 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONDUCTOR" id="5E42C98A-DD3C-AC24-CD15-6CA0137AE4F8">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:49:04 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="8A730B2D-5BA1-D314-B43B-EAD49C3C7238">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:49:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE NOMBRE]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO" id="C8B06F12-2B4B-4110-0A7E-F91AB770FE86">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:52:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL APELLIDO DEL CONDUCTOR]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LICENCIA" id="85019734-7F62-036A-4944-5B61CF1922DC">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:52:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[LICENCIA ID]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO_CONDUCTOR" id="3A079D48-B51B-537F-01F2-540FE09E5005">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:54:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[ESTADO DEL CONDUCTOR:
+'A': ACTIVO
+'S': SUSPENDIDO
+'B': DADO DE BAJA
+'R': RETIRADO]]></commentInRDBMS>
+<ownerDesignName>LAB0</ownerDesignName>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C895E506-54E6-49AC-47EA-36B03C256E6A" name="ET_CONDUCTOR PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-04-23 00:49:13 UTC</createdTime>
+<ownerDesignName>LAB0</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="750014EF-61A7-B29C-87FA-1D2BBAE29C23" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E42C98A-DD3C-AC24-CD15-6CA0137AE4F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
