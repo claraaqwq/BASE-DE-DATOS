@@ -15,4 +15,5 @@ SUGERENCIAS:
 
 -Asistir a clase :), si es Aguilera mejor
 
-![mono1](https://github.com/claraaqwq/Base-de-Datos/assets/128831601/60e06829-6cf1-44eb-afbe-ba37cad8ebe5)
+![mono1](https://github.com/claraaqwq/BASE-DE-DATOS/assets/128831601/641a4f5b-b11c-48ba-8cf6-be75cbc01c44)
+
