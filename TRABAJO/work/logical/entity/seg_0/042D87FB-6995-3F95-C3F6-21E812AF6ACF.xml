@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="042D87FB-6995-3F95-C3F6-21E812AF6ACF" name="HB CAJERO">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:01:12 UTC</createdTime>
+<generatorID>C762E55C-32F0-334B-1442-923E558BCC6E</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID CAJERO" id="6B34ABAD-4FE8-EB15-DFE6-A2847872047D">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:01:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL CAJERO]]></commentInRDBMS>
+<generatorID>3D826D74-44C7-D9E8-1EEA-FAB8A417A261</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="FE6BBC0E-2AC3-E81B-265B-641634282FC0">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:01:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DEL CAJERO]]></commentInRDBMS>
+<generatorID>4F18555A-D4BD-659C-48B3-5804F338C6FB</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DC41D3A8-0CD6-60EA-CB4B-BECD0294B5BE" name="HB CAJERO PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:01:12 UTC</createdTime>
+<generatorID>B01A75A1-D0CC-9CD3-4DA9-11B962333B13</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B34ABAD-4FE8-EB15-DFE6-A2847872047D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

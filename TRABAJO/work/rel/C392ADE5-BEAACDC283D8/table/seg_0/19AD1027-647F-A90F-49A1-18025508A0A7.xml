@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19AD1027-647F-A90F-49A1-18025508A0A7" name="HB_ENTREGA">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:36:44 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ENTREGA" id="F55B36AB-24CC-8D46-BC80-F44634C3E0BA">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:38:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE ENTREGA]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ENTREGA" id="96470938-6168-939C-A31C-C68C413B7DAD">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:38:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA DE LA ENTREGA]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_ENTREGA" id="929B97EF-C2FC-C6DF-B5AC-BC4ABA05BAFF">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:38:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[HORA DE LA ENTREGA DEL PRODUCT]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="F1BAAD27-047B-7E32-AD40-62360FDC0CFF">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:38:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[DIRECCION PARA LA ENTREGA]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HB_PEDIDO_ID_PEDIDO" id="8040EA22-EA8D-216B-1764-3AA624D5D69E">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:38:35 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72A3C331-D25C-A0A3-364A-73DFC9276627" referredColumn="3BB95B84-89A3-870D-7CE7-7A66AF92EB2E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72947D07-5B03-FA78-1963-8F87A83EA37E" name="HB_ENTREGA_PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:30:41 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F55B36AB-24CC-8D46-BC80-F44634C3E0BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7ACCF029-11B0-38F8-8439-536EEF87BBBE" name="HB_ENTREGA_HB_PEDIDO_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:38:35 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8040EA22-EA8D-216B-1764-3AA624D5D69E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2F65B9F-2867-5063-4D2B-2E1392F9545E" name="HB_FACTURA">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:56:14 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FACTURA" id="C9976CFE-ED10-DF9C-88D0-C37EAF3E7F04">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:57:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DE LA FACTURA]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_COMPROBANTE" id="39D68894-E42A-CF81-53A7-ACA2C86C7B2E">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:00:20 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="173A5BB5-8AB7-3C45-1C91-94E79857A8B1" referredColumn="9D6C4E5E-E2F9-694D-D6A3-29750CA6693B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B5551A9-0714-4D46-A8DB-E5C8A9333F6F" name="HB_FACTURA_PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:57:02 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9976CFE-ED10-DF9C-88D0-C37EAF3E7F04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85692D82-15A7-7E95-2B65-DC9D098AF3E1" name="HB_FACTURA_HB_COMPROBANTE_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:00:20 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39D68894-E42A-CF81-53A7-ACA2C86C7B2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

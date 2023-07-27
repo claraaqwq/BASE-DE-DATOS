@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0C47BB89-4D78-9F75-0FEE-E199CA57348B" containerWithKeyObject="49920348-F184-DCFC-BD0D-F9C0FC10DBF1" localFKIndex="D5807883-EF0A-F5C3-EA83-D5C333FCA56D" name="HB_COMPROBANTE_METODO_PAGO_HB_COMPROBANTE_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<generatorID>99E8659E-6F0E-DE11-3A51-B3111AE57F3D</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<referredTableLongName>HB_COMPROBANTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7EE97466-92D6-3F34-13AF-A2B98057023A</referredTableID>
+<keyObject>AD772721-7CE0-B13A-4512-78B995965896</keyObject>
+<referredKeyID>AD772721-7CE0-B13A-4512-78B995965896</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_COMPROBANTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

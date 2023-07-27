@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C762E55C-32F0-334B-1442-923E558BCC6E" name="HB_CAJERO">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:12:00 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CAJERO" id="3D826D74-44C7-D9E8-1EEA-FAB8A417A261">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:14:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL CAJERO]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="4F18555A-D4BD-659C-48B3-5804F338C6FB">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:14:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DEL CAJERO]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B01A75A1-D0CC-9CD3-4DA9-11B962333B13" name="HB_CAJERO_PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:14:15 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D826D74-44C7-D9E8-1EEA-FAB8A417A261"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

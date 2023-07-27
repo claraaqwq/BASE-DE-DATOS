@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EE97466-92D6-3F34-13AF-A2B98057023A" name="HB_COMPROBANTE">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:25:47 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMPROBANTE" id="9D6C4E5E-E2F9-694D-D6A3-29750CA6693B">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:29:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL COMPROBANTE]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_COMPRA" id="8DF3D43C-A1A3-20C9-C902-17E3304A4DB7">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:29:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA EN LA QUE SE REALIZO LA COMPRA]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO" id="6FEF35BE-EC4E-B2B5-391A-744D33AF811F">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:29:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[MONTO TOTAL DE LOS PRODUCTOS QUE CONSUMIO]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD" id="B29BD76D-F05C-E356-7A8C-909703E764A6">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:29:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[CANTIDAD DE PRODUCTOS COMPRADOS]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HB_PEDIDO_ID_PEDIDO" id="2C37282F-2174-A81E-7C98-06628B1B21C4">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:35:18 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F8D42D8-DF0B-8DAB-131A-8B7825F97BD6" referredColumn="3BB95B84-89A3-870D-7CE7-7A66AF92EB2E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD772721-7CE0-B13A-4512-78B995965896" name="HB_COMPROBANTE_PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:29:25 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D6C4E5E-E2F9-694D-D6A3-29750CA6693B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EB69CD7-D5ED-2C0B-223B-8D2BEB3D074C" name="HB_COMPROBANTE_HB_PEDIDO_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:35:18 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C37282F-2174-A81E-7C98-06628B1B21C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

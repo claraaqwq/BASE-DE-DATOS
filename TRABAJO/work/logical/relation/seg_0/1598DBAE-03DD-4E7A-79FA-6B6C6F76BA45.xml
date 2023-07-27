@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HB_ORDEN_HAMBURGUESA" directorySegmentName="seg_0" id="1598DBAE-03DD-4E7A-79FA-6B6C6F76BA45">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:07:34 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>46B6B492-EAD8-75AC-A50D-EA3C278AD6C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E260E40C-4D8E-9FE3-9302-D9D31EF4E7F6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E88C8929-59A5-ED90-E03E-90CDC43AE338" containerWithKeyObject="9DE81CFE-89BB-B255-FD3F-023201299041" localFKIndex="06BE3FB7-B34C-E6F4-6252-B5E920B7058D" name="HB_HAMBURGUESA_PROMOCION_HB_COMBO_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<generatorID>BA702D94-7EAF-5065-4E4C-58D081AA5670</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<referredTableLongName>HB_COMBO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F44607F-1643-DC06-9959-B0FE2F8F7ECB</referredTableID>
+<keyObject>8CC2D4EE-B922-AA22-5594-88A491F615C8</keyObject>
+<referredKeyID>8CC2D4EE-B922-AA22-5594-88A491F615C8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_COMBO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

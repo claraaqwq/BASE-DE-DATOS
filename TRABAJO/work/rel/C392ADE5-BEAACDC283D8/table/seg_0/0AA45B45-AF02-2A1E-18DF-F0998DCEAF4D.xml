@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AA45B45-AF02-2A1E-18DF-F0998DCEAF4D" name="HB_METODO_PAGO">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:44:19 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MEDIO_PAGO" id="375D9DC0-1993-00DB-E08C-DB6256A86A86">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:45:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL MEDIO DE PAGO]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="48E575B3-44DB-0851-A20F-8C91843AFD92">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:45:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DEL MEDIO DE PAGO
+]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8293460-CF7A-FD9A-3C56-96C4F207059E" name="HB_METODO_PAGO_PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:45:31 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="375D9DC0-1993-00DB-E08C-DB6256A86A86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

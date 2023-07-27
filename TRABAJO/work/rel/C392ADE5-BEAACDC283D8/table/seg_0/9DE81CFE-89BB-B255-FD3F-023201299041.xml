@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DE81CFE-89BB-B255-FD3F-023201299041" name="HB_HAMBURGUESA_PROMOCION">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRODUCTO" id="7C60041A-50EA-DE42-6F28-6B38928523D1">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A40571EA-9C41-2160-1042-BE49405855E9" referredColumn="59C92509-3E5D-2CEE-186C-451E37CC3969"/>
+</associations>
+</Column>
+<Column name="ID_COMBO" id="71198243-C6F6-A1FB-ADC3-6A28B5045813">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HB_COMBO_ID_COMBO" id="0EA5B9C0-936A-A46E-C267-EA19491ADF5B">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:32:53 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E88C8929-59A5-ED90-E03E-90CDC43AE338" referredColumn="0ABE4355-366D-17EB-24C4-6EFF3E65AE29"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09D759B7-B9EA-16E5-FE26-E5EBAE0C9370" name="HB_HAMBURGUESA_PROMOCION_PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C60041A-50EA-DE42-6F28-6B38928523D1"/>
+<colUsage columnID="71198243-C6F6-A1FB-ADC3-6A28B5045813"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="550E8873-9876-FDA9-04FB-9FE720CCBA2D" name="HB_HAMBURGUESA_PROMOCION_HB_PRODUCTO_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<generatorID>BA702D94-7EAF-5065-4E4C-58D081AA5670</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C60041A-50EA-DE42-6F28-6B38928523D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06BE3FB7-B34C-E6F4-6252-B5E920B7058D" name="HB_HAMBURGUESA_PROMOCION_HB_COMBO_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<generatorID>BA702D94-7EAF-5065-4E4C-58D081AA5670</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EA5B9C0-936A-A46E-C267-EA19491ADF5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

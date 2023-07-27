@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HB_PEDIDO_HB_CLIENTE_FK" directorySegmentName="seg_0" id="1E4306B2-A613-550C-19C7-571ED8611CAE">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:01:12 UTC</createdTime>
+<generatorID>C4BD9B79-B7D1-7A20-58D6-75D786300594</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<sourcePk>6F2B1D97-9671-D3E7-C7BB-0F5B7D6B5373</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>432AC87F-62DB-F697-91AE-8DC7B133F9C7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>46B6B492-EAD8-75AC-A50D-EA3C278AD6C4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

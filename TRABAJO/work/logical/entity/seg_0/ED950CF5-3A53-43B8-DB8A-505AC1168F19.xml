@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED950CF5-3A53-43B8-DB8A-505AC1168F19" name="HB COMPROBANTE">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:01:12 UTC</createdTime>
+<generatorID>7EE97466-92D6-3F34-13AF-A2B98057023A</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID COMPROBANTE" id="6F099B9C-BED9-02FC-8558-83AD69C1221B">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:01:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL COMPROBANTE]]></commentInRDBMS>
+<generatorID>9D6C4E5E-E2F9-694D-D6A3-29750CA6693B</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA COMPRA" id="1DDB87F4-B3E5-3644-761A-6DF8A23D8ACC">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:01:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA EN LA QUE SE REALIZO LA COMPRA]]></commentInRDBMS>
+<generatorID>8DF3D43C-A1A3-20C9-C902-17E3304A4DB7</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MONTO" id="2F75C8CC-691F-3D13-252A-9F5B80F19B70">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:01:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[MONTO TOTAL DE LOS PRODUCTOS QUE CONSUMIO]]></commentInRDBMS>
+<generatorID>6FEF35BE-EC4E-B2B5-391A-744D33AF811F</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANTIDAD" id="F30558C7-388C-63D2-1A92-4788C9C01E7E">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:01:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[CANTIDAD DE PRODUCTOS COMPRADOS]]></commentInRDBMS>
+<generatorID>B29BD76D-F05C-E356-7A8C-909703E764A6</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID PEDIDO" id="6B2157C0-F020-D6C6-D468-75880A8B8CF3">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:01:12 UTC</createdTime>
+<generatorID>DA962B97-5D2D-015C-720E-00D7C52F38FD</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<referedAttribute>C82BA896-9D5A-7AE6-1B2D-B22E82F2EFE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C72ED3EF-851D-4EEC-C880-A40D9C2A7D12" name="HB COMPROBANTE PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:01:12 UTC</createdTime>
+<generatorID>AD772721-7CE0-B13A-4512-78B995965896</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F099B9C-BED9-02FC-8558-83AD69C1221B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

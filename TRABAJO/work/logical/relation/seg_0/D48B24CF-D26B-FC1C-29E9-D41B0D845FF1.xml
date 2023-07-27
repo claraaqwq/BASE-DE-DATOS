@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HB_HAMBURGUESA_INGREDIENTE" directorySegmentName="seg_0" id="D48B24CF-D26B-FC1C-29E9-D41B0D845FF1">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:06:22 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E260E40C-4D8E-9FE3-9302-D9D31EF4E7F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FEA96FD8-843B-D0B3-AF70-0E3515D31A1D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

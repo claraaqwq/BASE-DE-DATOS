@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC668866-1493-443B-E92A-F03EA25A2298" name="HB_ALMACEN">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:47:04 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ALMACEN" id="C191906A-00D3-7A56-E8D4-049FF53464A7">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:48:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL ALMACEN]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="6A680A42-6E53-E197-4874-7C66C0686A26">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:48:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DEL ALMACEN]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION_ALMACEN" id="C6FA2751-3192-19B2-6D89-012B31DC21FB">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:48:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[DIRECCION DEL ALMACEN]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_INGREDIENTE" id="D1985465-0DCB-A2B4-ED90-8D5EE6DB4228">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:23:37 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E563A59-0BE1-7B15-4C26-74EDEFE97EC2" referredColumn="FBF7E04A-075B-3BB8-6259-BEE260C27DAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15A5B587-D37C-7886-AC96-AFEBAB3415FE" name="HB_ALMACEN_PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:48:09 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C191906A-00D3-7A56-E8D4-049FF53464A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8A18B29-D5A2-5AE0-C831-41D0B3B2C8FD" name="HB_ALMACEN_HB_INGREDIENTE_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:23:37 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1985465-0DCB-A2B4-ED90-8D5EE6DB4228"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

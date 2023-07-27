@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HB_FACTURA_HB_COMPROBANTE_FK" directorySegmentName="seg_0" id="1BA0FDA2-B6A1-DF29-46AA-4F899B102B31">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:01:12 UTC</createdTime>
+<generatorID>173A5BB5-8AB7-3C45-1C91-94E79857A8B1</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<sourcePk>C72ED3EF-851D-4EEC-C880-A40D9C2A7D12</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ED950CF5-3A53-43B8-DB8A-505AC1168F19</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>29E1215F-5F1E-E470-7283-56ACA69FFE3E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

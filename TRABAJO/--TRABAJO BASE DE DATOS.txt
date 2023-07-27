@@ -1,0 +1,98 @@
+--TRABAJO BASE DE DATOS
+SET SERVEROUTPUT ON
+-------------------------------------------------------------------------------------------------
+--PARTE CLARA:
+-------------------------------------------------------------------------------------------------
+/
+SELECT * FROM hb_persona;
+/
+-------------------------------------------------------------------------------------------------
+--1) PROCEDIMIENTO PARA INSERTAR UNA PERSONA CON SUS DATOS EN LA TABLA PERSONA
+-------------------------------------------------------------------------------------------------
+CREATE OR REPLACE PROCEDURE INSERTAR_PERSONA(K_NOMBRE VARCHAR2, K_APELLIDO VARCHAR2,K_TIPO CHAR)
+IS
+    C_CONTADOR NUMBER :=0;
+BEGIN
+    SELECT count(ID_PERSONA)INTO C_CONTADOR
+    FROM HB_PERSONA;
+    
+    IF (K_TIPO = 'C' OR K_TIPO = 'M' ) THEN 
+        INSERT INTO HB_PERSONA VALUES (C_CONTADOR+1,K_NOMBRE,K_APELLIDO,K_TIPO);
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('Ingresó mal el tipo de persona');
+    END IF;
+END;
+/
+EXEC INSERTAR_PERSONA('MARIO','MEDINA','X');
+/
+-------------------------------------------------------------------------------------------------
+--2) TRIGGER QUE MANDE MENSAJE DESPUES DE INSERTAR, PARA SABER QUE TIPO DE PERSONA INGRESÓ 
+-------------------------------------------------------------------------------------------------
+CREATE OR REPLACE TRIGGER TR_INSERTAR_PERSONA
+AFTER INSERT ON HB_PERSONA
+FOR EACH ROW
+DECLARE
+
+BEGIN
+
+    IF :NEW.TIPO_PERSONA = 'C' THEN
+        dbms_output.put_line('El tipo de persona que se ingresó es un CAJERO');
+    END IF;
+    
+    IF :NEW.TIPO_PERSONA = 'M' THEN
+        dbms_output.put_line('El tipo de persona que se ingresó es un MOTORIZADO');
+    END IF;
+    
+END;
+/
+EXEC INSERTAR_PERSONA('MELISSA','MERINO','M');
+/
+-------------------------------------------------------------------------------------------------
+--3) TRIGGER QUE ME IMPRIME EL LOTE DESPUES DE ACTUALIZAR, IMPRIME EL ANTIGUO Y EL NUEVO
+-------------------------------------------------------------------------------------------------
+CREATE OR REPLACE TRIGGER TR_INGRESO_CANT_LOTE
+BEFORE UPDATE ON HB_LOTE
+FOR EACH ROW
+DECLARE
+    CANTIDAD_ANT_LOTE NUMBER;
+    CANTIDAD_NUEVA_LOTE NUMBER;
+    V_COUNT NUMBER :=0;
+    CustomException EXCEPTION;
+BEGIN
+    
+    IF(:NEW.CANTIDAD > :OLD.STOCK_MAXIMO) THEN
+        raise CustomException;
+    END IF;
+    
+    CANTIDAD_ANT_LOTE:= :OLD.CANTIDAD;
+    
+    dbms_output.put_line('ID_LOTE: '||:NEW.ID_LOTE);
+    dbms_output.put_line('Lote anterior: '||CANTIDAD_ANT_LOTE);
+    
+    CANTIDAD_NUEVA_LOTE:= :NEW.CANTIDAD;
+    
+    dbms_output.put_line('Lote Nuevo: '||CANTIDAD_NUEVA_LOTE);
+EXCEPTION
+    WHEN CustomException THEN
+        DECLARE
+        v_error_msg VARCHAR2(200) := 'Sobrepasa el stock maximo.';
+        BEGIN
+        RAISE_APPLICATION_ERROR(-20001, v_error_msg);
+    END;
+END;
+/
+UPDATE HB_LOTE
+SET CANTIDAD = CANTIDAD+110
+WHERE ID_INGREDIENTE = 1001;
+/
+SELECT * FROM HB_LOTE;
+/
+--TABLAS MODIFICADAS
+SELECT* FROM HB_LOTE
+ORDER BY ID_LOTE ASC;
+SELECT * FROM HB_PERSONA
+ORDER BY ID_PERSONA ASC;
+SELECT * FROM HB_INGREDIENTE
+ORDER BY ID_INGREDIENTE;
+--:)
+/

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F8520253-9434-B9A0-73A1-3941BBC2F562" containerWithKeyObject="9EDF5334-A365-E41C-F137-36A2B1CB6BB1" localFKIndex="C291969D-8349-5927-8172-A15678DE0557" name="HB_HAMBURGUESA_INGREDIENTE_HB_PRODUCTO_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<generatorID>D48B24CF-D26B-FC1C-29E9-D41B0D845FF1</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<referredTableLongName>HB_PRODUCTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1683E1A3-526C-6903-EB92-655C584F7A7F</referredTableID>
+<keyObject>8147936A-18E4-A078-82A4-B60D382010CC</keyObject>
+<referredKeyID>8147936A-18E4-A078-82A4-B60D382010CC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PRODUCTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

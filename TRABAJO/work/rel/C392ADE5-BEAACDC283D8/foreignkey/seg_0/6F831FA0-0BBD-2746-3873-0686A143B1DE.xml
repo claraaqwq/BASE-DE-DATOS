@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6F831FA0-0BBD-2746-3873-0686A143B1DE" containerWithKeyObject="D3D24539-D705-CF2A-2CF9-C3DBCC17FB62" localFKIndex="3CD86222-E06D-7047-02FC-98CC7CA5EE8F" name="HB_ORDEN_HAMBURGUESA_HB_PEDIDO_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<generatorID>1598DBAE-03DD-4E7A-79FA-6B6C6F76BA45</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<referredTableLongName>HB_PEDIDO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>83D4B874-FC91-3F55-A1ED-DB1157499B8D</referredTableID>
+<keyObject>FD746B02-2047-CC4F-6516-D6DF145E510D</keyObject>
+<referredKeyID>FD746B02-2047-CC4F-6516-D6DF145E510D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PEDIDO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

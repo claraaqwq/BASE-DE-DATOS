@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83D4B874-FC91-3F55-A1ED-DB1157499B8D" name="HB_PEDIDO">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 02:54:52 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PEDIDO" id="3BB95B84-89A3-870D-7CE7-7A66AF92EB2E">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:05:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL NUMERO DEL PEDIDO]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="CA97AEA8-E321-4981-D93B-0BAC34CE9F1E">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:05:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA EN LA QUE SE REALIZÓ EL PEDIDO]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA" id="569C3E9A-E014-E301-AC54-0F0E4B189696">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:05:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[HORA EN LA QUE SE REALIZO EL PEDIDO]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CAJERO" id="F819AA2A-432A-A3CC-EE89-FA63655F0C31">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:33:49 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D057F12E-C915-DB81-6445-0C509949380B" referredColumn="3D826D74-44C7-D9E8-1EEA-FAB8A417A261"/>
+</associations>
+</Column>
+<Column name="ID_CLIENTE" id="D9816712-59F5-9787-89D7-148729A4545C">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:34:05 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4BD9B79-B7D1-7A20-58D6-75D786300594" referredColumn="C45AFFBF-9CB1-E4C1-A6D0-788A3B80B69D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD746B02-2047-CC4F-6516-D6DF145E510D" name="HB_PEDIDO_PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:05:58 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BB95B84-89A3-870D-7CE7-7A66AF92EB2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95C66925-8199-C7E5-A525-3FF79D660826" name="HB_PEDIDO_HB_CAJERO_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:33:49 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F819AA2A-432A-A3CC-EE89-FA63655F0C31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50D7EBE6-19BB-CAB7-685B-8FE0D5CCB135" name="HB_PEDIDO_HB_CLIENTE_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:34:05 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9816712-59F5-9787-89D7-148729A4545C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

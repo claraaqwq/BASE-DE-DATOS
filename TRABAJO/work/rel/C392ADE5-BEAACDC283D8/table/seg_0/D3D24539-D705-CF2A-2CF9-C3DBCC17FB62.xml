@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3D24539-D705-CF2A-2CF9-C3DBCC17FB62" name="HB_ORDEN_HAMBURGUESA">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PEDIDO" id="274EDA50-D42A-7D76-A5D9-1F02F99240BA">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F831FA0-0BBD-2746-3873-0686A143B1DE" referredColumn="3BB95B84-89A3-870D-7CE7-7A66AF92EB2E"/>
+</associations>
+</Column>
+<Column name="ID_PRODUCTO" id="9431A63E-EB2A-A252-44C1-756A8674768E">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="591ED779-AC1B-BC13-999D-F733EB47E735" referredColumn="59C92509-3E5D-2CEE-186C-451E37CC3969"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5CCB21C-1A51-D3EB-CF20-830C75D98B2C" name="HB_ORDEN_HAMBURGUESA_PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="274EDA50-D42A-7D76-A5D9-1F02F99240BA"/>
+<colUsage columnID="9431A63E-EB2A-A252-44C1-756A8674768E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CD86222-E06D-7047-02FC-98CC7CA5EE8F" name="HB_ORDEN_HAMBURGUESA_HB_PEDIDO_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<generatorID>1598DBAE-03DD-4E7A-79FA-6B6C6F76BA45</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="274EDA50-D42A-7D76-A5D9-1F02F99240BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3399C666-E738-F8A9-869D-564647819251" name="HB_ORDEN_HAMBURGUESA_HB_PRODUCTO_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<generatorID>1598DBAE-03DD-4E7A-79FA-6B6C6F76BA45</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9431A63E-EB2A-A252-44C1-756A8674768E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1683E1A3-526C-6903-EB92-655C584F7A7F" name="HB_PRODUCTO">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:16:24 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRODUCTO" id="59C92509-3E5D-2CEE-186C-451E37CC3969">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:17:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL PRODUCTO]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="BA95FD07-E7DC-1657-436E-1CF392226F1F">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:17:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DEL PRODUCTO]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="D88CC162-CA09-3476-FDE7-441124DDB822">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:17:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[PRECIO DEL PRODUCTO]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8147936A-18E4-A078-82A4-B60D382010CC" name="HB_PRODUCTO_PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:17:38 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59C92509-3E5D-2CEE-186C-451E37CC3969"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

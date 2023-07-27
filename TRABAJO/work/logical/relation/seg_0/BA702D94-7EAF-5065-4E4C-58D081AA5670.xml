@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HB_HAMBURGUESA_PROMOCION" directorySegmentName="seg_0" id="BA702D94-7EAF-5065-4E4C-58D081AA5670">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:07 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E260E40C-4D8E-9FE3-9302-D9D31EF4E7F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>034E2CE6-B6F1-B30A-C965-C1B45B3F6136</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

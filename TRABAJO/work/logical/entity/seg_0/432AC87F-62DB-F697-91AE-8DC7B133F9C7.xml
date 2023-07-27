@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="432AC87F-62DB-F697-91AE-8DC7B133F9C7" name="HB CLIENTE">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:11:41 UTC</createdTime>
+<generatorID>311DF7E3-68B9-4A12-3BFC-241D4B59D858</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID CLIENTE" id="49111152-7457-D53E-9958-BCB16A5BBD40">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:11:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL CLIENTE]]></commentInRDBMS>
+<generatorID>C45AFFBF-9CB1-E4C1-A6D0-788A3B80B69D</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="55E8BCA6-DE2B-0689-09C2-54A20DB890C5">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:11:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DEL CLIENTE]]></commentInRDBMS>
+<generatorID>F3578F75-B716-E22B-D619-CE5E1B56FD20</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="EB5C6521-F46C-E9CE-5F62-8954EC95CF04">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:11:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[DIRECCION DEL CLIENTE SI REALIZA UN PEDIDO PARA LLEVAR]]></commentInRDBMS>
+<generatorID>37E9C3BD-C3E7-A1DA-615E-8786EB816773</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F2B1D97-9671-D3E7-C7BB-0F5B7D6B5373" name="HB CLIENTE PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:11:41 UTC</createdTime>
+<generatorID>68087DB2-CAB2-9ED5-A8BE-72DC288BA7B5</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49111152-7457-D53E-9958-BCB16A5BBD40</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HB_COMPROBANTE_METODO_PAGO" directorySegmentName="seg_0" id="99E8659E-6F0E-DE11-3A51-B3111AE57F3D">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:04:43 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>ED950CF5-3A53-43B8-DB8A-505AC1168F19</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E1C0333D-9870-18BC-BA35-91EF9F801D28</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

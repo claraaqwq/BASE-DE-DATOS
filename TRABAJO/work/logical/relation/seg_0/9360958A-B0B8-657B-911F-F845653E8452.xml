@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HB_ALMACEN_INGREDIENTE" directorySegmentName="seg_0" id="9360958A-B0B8-657B-911F-F845653E8452">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:09:10 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<engineerTo>
+<item key="C392ADE5-A037-A069-E730-BEAACDC283D8" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FEA96FD8-843B-D0B3-AF70-0E3515D31A1D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6FAD83E8-7211-95A9-6605-8C9A07D2FC62</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

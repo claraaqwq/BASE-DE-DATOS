@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B64629F4-51FA-04C2-2F09-E42D79077F69" containerWithKeyObject="49920348-F184-DCFC-BD0D-F9C0FC10DBF1" localFKIndex="9BB9DFE2-F841-1FE8-6A0C-E263E7F79C8A" name="HB_COMPROBANTE_METODO_PAGO_HB_METODO_PAGO_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<generatorID>99E8659E-6F0E-DE11-3A51-B3111AE57F3D</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<referredTableLongName>HB_METODO_PAGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0AA45B45-AF02-2A1E-18DF-F0998DCEAF4D</referredTableID>
+<keyObject>C8293460-CF7A-FD9A-3C56-96C4F207059E</keyObject>
+<referredKeyID>C8293460-CF7A-FD9A-3C56-96C4F207059E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_MEDIO_PAGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

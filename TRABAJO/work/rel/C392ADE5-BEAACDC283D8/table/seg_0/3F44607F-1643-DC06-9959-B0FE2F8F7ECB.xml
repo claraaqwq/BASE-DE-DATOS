@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F44607F-1643-DC06-9959-B0FE2F8F7ECB" name="HB_COMBO">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:50:06 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMBO" id="0ABE4355-366D-17EB-24C4-6EFF3E65AE29">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:51:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICADOR DEL COMBO(PROMOCION)]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="7F72063C-1525-3590-E6DA-2886AC5365E5">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:51:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DEL COMBO]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCUENTO" id="349F5499-ED71-4CAF-76EA-BF83BD1EF520">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 03:51:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCUENTO EN EL PRODUCTO]]></commentInRDBMS>
+<ownerDesignName>work</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CC2D4EE-B922-AA22-5594-88A491F615C8" name="HB_COMBO_PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="0ABE4355-366D-17EB-24C4-6EFF3E65AE29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

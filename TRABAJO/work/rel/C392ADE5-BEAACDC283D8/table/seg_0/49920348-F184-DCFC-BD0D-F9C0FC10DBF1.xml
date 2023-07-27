@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49920348-F184-DCFC-BD0D-F9C0FC10DBF1" name="HB_COMPROBANTE_METODO_PAGOv1">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<ordsAlias>hb_comprobante_metodo_pago</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMPROBANTE" id="76381A50-B076-E19A-16F7-F58D66E10810">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C47BB89-4D78-9F75-0FEE-E199CA57348B" referredColumn="9D6C4E5E-E2F9-694D-D6A3-29750CA6693B"/>
+</associations>
+</Column>
+<Column name="ID_MEDIO_PAGO" id="6FD03ED3-D195-BA8E-3E85-9F2739C8EB8F">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B64629F4-51FA-04C2-2F09-E42D79077F69" referredColumn="375D9DC0-1993-00DB-E08C-DB6256A86A86"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F17AA2B-70BE-47BB-9402-91409B3ADD25" name="HB_COMPROBANTE_METODO_PAGO_PK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<ownerDesignName>work</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76381A50-B076-E19A-16F7-F58D66E10810"/>
+<colUsage columnID="6FD03ED3-D195-BA8E-3E85-9F2739C8EB8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5807883-EF0A-F5C3-EA83-D5C333FCA56D" name="HB_COMPROBANTE_METODO_PAGO_HB_COMPROBANTE_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<generatorID>99E8659E-6F0E-DE11-3A51-B3111AE57F3D</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76381A50-B076-E19A-16F7-F58D66E10810"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BB9DFE2-F841-1FE8-6A0C-E263E7F79C8A" name="HB_COMPROBANTE_METODO_PAGO_HB_METODO_PAGO_FK">
+<createdBy>clara</createdBy>
+<createdTime>2023-05-07 04:10:41 UTC</createdTime>
+<generatorID>99E8659E-6F0E-DE11-3A51-B3111AE57F3D</generatorID>
+<ownerDesignName>work</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FD03ED3-D195-BA8E-3E85-9F2739C8EB8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
