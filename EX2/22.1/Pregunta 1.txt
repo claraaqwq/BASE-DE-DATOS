@@ -1,0 +1,7 @@
+--pregunta 1:
+•	A: incorrecto porque el almacén no necesita tener el id del área, solo el de subárea
+•	B: incorrecto porque el área no debería tener el id del almacén porque van a haber varios registros ahí con los mismos datos y que solo varíe el id almacén (desperdicio).
+•	C: incorrecto la subárea no debería tener el id de almacén porque van a haber varios registros ahí con los mismos datos y que solo varíe el id almacén porque varios almacenes pueden pertenecer a una misma subárea (desperdicio).
+•	D: incorrecto la subárea no debería tener el id de área porque entonces no deja saber a que sub área pertenece. 
+•	E: correcto porque no habrá columnas con datos repetidos (ahorro).
+•	F: incorrecto porque se crea una tabla innecesaria porque cada almacén puede estar solamente en 1 subárea entonces no haberlo tenido de atributo es desperdicio.

@@ -1,0 +1,441 @@
+insert into UNIVERSIDAD ( iduniversidad, nombre ) values ( 1,'PUCP' );
+insert into UNIVERSIDAD ( iduniversidad, nombre ) values ( 2,'UNMSM' );
+insert into UNIVERSIDAD ( iduniversidad, nombre ) values ( 3,'UNI' );
+
+insert into PROFESION ( idprofesion, nombre ) values ( 1, 'Abogado' );
+insert into PROFESION ( idprofesion, nombre ) values ( 2, 'Médico' );
+insert into PROFESION ( idprofesion, nombre ) values ( 3, 'Arquitecto' );
+insert into PROFESION ( idprofesion, nombre ) values ( 4, 'Contador' );
+insert into PROFESION ( idprofesion, nombre ) values ( 5, 'Ingeniero Industrial' );
+insert into PROFESION ( idprofesion, nombre ) values ( 6, 'Ingeniero Civil' );
+insert into PROFESION ( idprofesion, nombre ) values ( 7, 'Ingeniero Mecanico' );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 1, 'Tovar', 'Diaz', 'Luisa', 'F', 2800 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 2, 'Perez', 'Benavides', 'Marta', 'F', 3500 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 3, 'Zapata', 'Miranda', 'Jorge', 'M', 4200 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 4, 'Lopez', 'Garcia', 'Vanesa', 'F', 2500 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 5, 'Jimenez', 'Avila', 'Karla', 'F', 3000 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 6, 'Abarca', 'Torres', 'Pedro', 'M', 2800 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 7, 'Talavera', 'Garcia', 'Hector', 'M', 4800 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 8, 'Hernandez', 'Cardenas', 'Luisa', 'F', 2300 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 9, 'Lopez', 'Vinatea', 'Elsa', 'F', 5000 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 10, 'Lazarte', 'Blanco', 'Margarita', 'F', 4300 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 11, 'Fernandez', 'Goyzueta', 'Olenka', 'F', 3100 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 12, 'Lovaton', 'Salas', 'Ronald', 'M', 2600 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 13, 'Davila', 'Montoya', 'Pedro', 'M', 3000 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 14, 'Carrasco', 'Yufra', 'Rosa', 'F', 3700 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 15, 'Lazo', 'Lazo', 'Juan', 'M', 4300 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 16, 'Segovia', 'Tudela', 'Victoria', 'F', 2900 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 17, 'Vela', 'Alvarado', 'Jorge', 'M', 5200 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 18, 'Polar', 'Bolaños', 'Guillermo', 'M', 2700 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 19, 'Linares', 'Linares', 'Juan', 'M', 3200 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 20, 'Torres', 'Neira', 'Rosa', 'F', 4400 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 21, 'Cuba', 'Balta', 'Noelia', 'F', 3600 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 22, 'Polar', 'Zea', 'Horacio', 'M', 3500 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 23, 'Ramirez', 'Jimenez', 'Maria', 'F', 4000 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 24, 'Bedoya', 'Tordoya', 'Elvira', 'F', 2800 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 25, 'Galvan', 'Vela', 'Fernando', 'M', 4300 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 26, 'Peralta', 'Peralta', 'Ramiro', 'M', 3800 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 27, 'Juarez', 'Rodriguez', 'Humberto', 'M', 3200 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 28, 'Macedo', 'Bejarano', 'Mauricio', 'M', 3000 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 29, 'Peralta', 'Rojas', 'Alvaro', 'M', 2600 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 30, 'Meneses', 'Chale', 'Gabriela', 'F', 2500 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 31, 'Lozada', 'Chirinos', 'Eduardo', 'M', 2900 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 32, 'Alvarez', 'Espinoza', 'Luisa', 'F', 3100 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 33, 'Chavez', 'Casas', 'Maribel', 'F', 2500 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 34, 'Martinez', 'Martinez', 'Jorge', 'M', 3500 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 35, 'Durand', 'Delgado', 'Pablo', 'M', 4200 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 36, 'Chiroque', 'Raymi', 'Juan', 'M', 2300 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 37, 'Espinoza', 'Orihuela', 'Juana', 'F', 4000 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 38, 'Pizarro', 'Heraud', 'Victor', 'M', 4300 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 39, 'Garcia', 'Yanac', 'Alicia', 'F', 5100 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 40, 'Ojeda', 'Valdivia', 'Bernardo', 'M', 5000 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 41, 'Cuba', 'Rodriguez', 'Juana', 'F', 3700 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 42, 'Castro', 'Rojas', 'Carmen', 'F', 2500 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 43, 'Terrones', 'Miranda', 'Gabriel', 'M', 3400 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 44, 'Tapia', 'Salas', 'Mario', 'M', 3700 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 45, 'Tovar', 'Chavez', 'Susana', 'F', 2900 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 46, 'Diaz', 'Vargas', 'Eduardo', 'M', 4200 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 47, 'Gonzales', 'Quiroz', 'Joel', 'M', 4300 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 48, 'Jimenez', 'Zavaleta', 'Mario', 'M', 3500 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 49, 'Flores', 'Morales', 'Dora', 'F', 3000 );
+
+insert into PROFESIONAL
+( idprofesional, paterno, materno, nombre, sexo, sueldo )
+values ( 50, 'Valdez', 'Alvarado', 'Sandra', 'F', 2500 );
+
+
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 1, 5, 3, '12/02/2020');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 2, 5, 1, '17/03/2020');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 3, 4, 2, '26/06/2020');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 4, 3, 3, '18/09/2020');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 5, 1, 1, '01/10/2020');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 6, 3, 1, '05/02/2021');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 7, 5, 3, '19/03/2021');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 8, 3, 1, '14/05/2021');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 9, 1, 2, '28/05/2021');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 10, 6 , 1, '11/06/2021');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 11, 7, 1, '09/07/2021');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 12, 7, 3, '08/08/2021');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 13, 7, 2, '17/09/2021');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 14, 6, 1, '11/10/2021');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 15, 5, 2, '13/11/2021');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 16, 6, 3, '05/01/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 17, 3, 1, '14/02/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 18, 6 , 1, '24/02/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 19, 1, 2, '02/03/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 20, 4, 1, '19/03/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 21, 3, 3, '20/04/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 22, 6, 2, '03/05/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 23,  5, 1, '22/05/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 24, 3, 1, '07/06/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 25, 6, 2, '19/06/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 26, 5, 1, '10/07/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 27, 6, 3, '03/08/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 28, 3, 1, '19/08/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 29, 7, 3, '28/08/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 30, 1, 2, '01/09/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 31, 4, 1, '17/09/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 32, 7, 3, '06/10/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 33, 2, 2, '18/10/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 34, 1, 2, '21/10/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 35, 5, 1, '04/11/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 36, 1, 1, '10/11/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 37, 3, 3, '19/11/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 38, 5, 2, '02/12/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 39, 1, 1, '09/12/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 40, 7, 2, '11/12/2022');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 41, 3, 1, '04/01/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 42, 5, 3, '18/01/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 43, 1, 1, '30/01/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 44, 6, 1, '02/02/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 45, 1, 2, '15/02/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 46, 7, 3, '26/02/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 47, 6, 1, '05/03/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 48, 5, 1, '08/03/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 49, 4, 2, '21/03/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 50, 6, 1, '01/04/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 3, 7, 3, '05/04/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 11, 5, 2, '09/04/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 17, 4, 2, '18/04/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 22, 1, 1, '27/04/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 29, 6, 2, '03/05/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 35, 6, 3, '11/05/2023');
+
+insert into TITULACION
+( idprofesional, idprofesion, iduniversidad, fecha )
+values ( 42, 1, 1, '19/05/2023');

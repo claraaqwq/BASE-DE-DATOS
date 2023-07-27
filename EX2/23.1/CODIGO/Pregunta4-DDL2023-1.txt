@@ -1,0 +1,26 @@
+create table UNIVERSIDAD
+( iduniversidad number primary key,
+  nombre varchar2(10) not null );
+
+create table PROFESION
+( idprofesion number primary key,
+  nombre varchar2(30) not null );
+
+create table PROFESIONAL
+( idprofesional number primary key,
+  paterno varchar2(20) not null,
+  materno varchar2(20) not null,
+  nombre varchar2(20) not null,
+  sexo varchar(1) not null,
+  sueldo number not null );   
+
+create table TITULACION
+( idprofesional number references PROFESIONAL (idprofesional),
+  idprofesion number references PROFESION (idprofesion),
+  iduniversidad number references UNIVERSIDAD (iduniversidad),
+  fecha date,
+  primary key(idprofesional,idprofesion);
+
+create table TITULADOS_PUCP
+( profesion varchar2(30) primary key,
+  cantidad number );
